@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Deck.h"
 
 @interface CardGameViewController : UIViewController
+
+- (void)switchGameMod;
+
+// abstract
+- (Deck *)createDeck;
+
+
+
 
 @end
